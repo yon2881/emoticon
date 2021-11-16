@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+
+
+
+* {margin: 0; padding: 0;}
+ul,li {margin: 0; padding: 0; list-style: none;}
+body {background: #dedede;}
+.pf {position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
+.pf ul {display: flex; justify-content: space-between;}
+.pf ul li a {background: #000; font-size: 14px; text-decoration: none;
+color: #fff; width: 135px; height: 20px; padding: 10px 0 10px 0; 
+display: block; text-align: center;
+border-top-left-radius:  10px;
+border-top-right-radius: 10px;
+
+}
+.pf ul li a:hover {background: #999;}
+.pf ul li a:focus {background: #666;}
+.pf .frame img {border: 1px solid #000;}
+
